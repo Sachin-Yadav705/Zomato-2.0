@@ -1,0 +1,122 @@
+#mainContent {
+  width: 100%;
+  /* margin-left: 5%; */
+  margin-top: 2%;
+}
+.img_content {
+  display: flex;
+}
+.imgDiv {
+  height: 320px;
+  width: 550px;
+  overflow: hidden;
+}
+.imgDiv > img {
+  /* height: 400px;
+  width: 100%; */
+  width: 100%;
+  object-fit: cover;
+  height: 320px;
+  opacity: 1;
+  filter: brightness(0.95);
+  transition: transform 0.5s ease-in-out 0s, opacity 1.63s ease 0s,
+    filter 0.4s ease 0s;
+}
+.imgDiv:hover > img {
+  transform: scale(1.1);
+}
+
+.contentDiv {
+  margin-left: 2%;
+  margin-top: -6px;
+}
+.contentDiv p {
+  font-size: 20px;
+  color: grey;
+}
+.contentDiv h3 {
+  font-size: 18px;
+}
+.contentDiv h2 {
+  font-size: 35px;
+  color: #626365;
+}
+.contentDiv span {
+  color: #d00014;
+}
+.feature_container {
+  width: 100%;
+  display: inline-block;
+}
+figure {
+  float: left;
+  margin-left: 5%;
+}
+
+.featureIcon {
+  height: 75px;
+  width: 75px;
+}
+.imgIcon {
+  height: 100px;
+  width: 100px;
+  margin-left: 2%;
+}
+
+.fa-amazon {
+  font-size: 25px;
+  color: orange;
+}
+.checked {
+  color: red;
+}
+.btn1 {
+  color: white;
+  margin-left: 1%;
+}
+
+.btn-proceed {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(144, 145, 235);
+}
+
+.btn-back {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(237, 120, 120);
+}
+
+.tabs {
+  margin-top: 2%;
+}
+.container > hr {
+  margin: 0.5rem !important;
+  color: var(--inactive-text);
+}
+
+.cart_content .cart_icon {
+  font-size: 1.2rem;
+  color: var(--tag-red);
+}
+
+.cart_total {
+  position: relative;
+}
+.cart_lenght {
+  height: 18px;
+  width: 18px;
+  background: #441075;
+  border-radius: 50%;
+  position: absolute;
+  top: -9px;
+  left: 17px;
+  padding: 9px;
+}
+.cart_total span {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

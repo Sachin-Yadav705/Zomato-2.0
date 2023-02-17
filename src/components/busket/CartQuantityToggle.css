@@ -1,0 +1,15 @@
+.cart-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cart-button > button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.cart-button .quantity-style {
+  font-size: 1.2rem;
+  color: rgb(98 84 243);
+}

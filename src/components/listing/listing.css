@@ -1,0 +1,23 @@
+.listing-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.search-heading {
+  width: 60%;
+}
+
+h1 {
+  margin-right: 30px;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+  cursor: pointer;
+}
+.container > hr {
+  margin: 0.5rem !important;
+  color: var(--inactive-text);
+}

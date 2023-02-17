@@ -1,0 +1,11 @@
+.overview-container {
+  width: 65%;
+  margin-top: 25px;
+}
+.overview-container > h2 {
+  color: var(--subtitle-text);
+  font-size: 1.7rem;
+}
+.overview-container > p {
+  color: var(--inactive-text);
+}

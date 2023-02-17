@@ -1,0 +1,54 @@
+.menu-list {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  display: flex;
+}
+.dish_img {
+  width: 170px;
+  height: 170px;
+  padding: 10px;
+  overflow: hidden;
+}
+.dish_img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 15px;
+}
+.menu-item-details {
+  padding: 10px;
+}
+.menu-item-details h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(28, 28, 28);
+  line-height: 150%;
+  margin: 0px;
+}
+.menu_price {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: var(--inactive-text);
+}
+.menu-item-details p {
+  color: var(--filter-text);
+}
+.star-rating {
+  font-size: 1.2rem;
+}
+.add_to_cart {
+  display: flex;
+  align-items: center;
+}
+.add_to_cart > .num {
+  padding: 8px;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
