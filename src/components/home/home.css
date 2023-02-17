@@ -1,7 +1,7 @@
 .home_upper {
   height: 400px;
   width: 100%;
-  background-image: url("D:\React\zomato_clone\public\images\bg.avif");
+  background-image: url("../../../public/images/bg.avif");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
