@@ -11,8 +11,11 @@ const Restaurantlist = (props) => {
         return listdata.map((item) => {
           return (
             <>
-              <Link to={`/Details?restid=${item.restaurant_id}`}>
-                <div className="item" key={item._id}>
+              <Link
+                to={`/Details?restid=${item.restaurant_id}`}
+                key={item.restaurant_id + item._id}
+              >
+                <div className="item">
                   <div className="col single_card">
                     <div className="card  food_card">
                       <div className="img_style">

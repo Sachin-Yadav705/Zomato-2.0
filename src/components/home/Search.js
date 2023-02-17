@@ -68,17 +68,17 @@ const Search = () => {
         <div className="dropdown-content for-radius-first">
           <ImLocation className="search_icon loc" />
           <select onChange={handelrest}>
-            <option selected>Select Location</option>
+            <option>Select Location</option>
             {handellocation(location)}
           </select>
         </div>
       </div>
-      <div class="location-search-separator"></div>
+      <div className="location-search-separator"></div>
       <div className="dropdown  ">
         <div className="dropdown-content for-radius-second">
           <BsSearch className="search_icon" />
           <select>
-            <option selected>Search for restaurant</option>
+            <option>Search for restaurant</option>
             {renderrest(restaurant)}
           </select>
         </div>

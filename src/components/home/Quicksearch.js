@@ -15,6 +15,8 @@ const Quicksearch = () => {
     });
   }, []);
 
+  console.log(meal._id);
+
   return (
     <>
       <div className="container">

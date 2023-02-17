@@ -41,6 +41,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
               activeTab === tab.name && "active-tab"
             }`}
             onClick={() => setActiveTab(tab.name)}
+            key={tab.id}
           >
             <div
               className="tab-image-container absolute-center"
